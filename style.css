@@ -224,3 +224,37 @@ ul li:hover::marker {
     text-decoration: line-through;
     color: #bbb;
 }
+
+.random-hero {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Darker background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 165, 0, 0.5);
+    max-width: 400px; /* Keeps it centered and boxed */
+    border: 2px solid #ffa500;
+}
+
+#random-hero-btn {
+    background-color: #ff9c00;
+    color: #1e1e1e;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#random-hero-btn:hover {
+    background-color: #ffcc00;
+    transform: scale(1.05);
+}
+
+#random-hero {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffa500;
+}
